@@ -2,7 +2,18 @@
   "name": "@guoyunhe/create-node",
   "version": "1.0.1",
   "description": "Initialize a Node.js library project",
-  "keywords": [],
+  "keywords": [
+    "cli",
+    "typescript",
+    "build",
+    "compile",
+    "lint",
+    "eslint",
+    "format",
+    "prettier",
+    "test",
+    "jest"
+  ],
   "homepage": "https://github.com/guoyunhe/create-node#readme",
   "bugs": {
     "url": "https://github.com/guoyunhe/create-node/issues"
