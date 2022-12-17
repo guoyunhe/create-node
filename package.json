@@ -1,6 +1,6 @@
 {
   "name": "@guoyunhe/create-node",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Initialize a Node.js library project",
   "keywords": [],
   "homepage": "https://github.com/guoyunhe/create-node#readme",
