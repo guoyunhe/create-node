@@ -1,0 +1,38 @@
+{
+  "main": "dist/cjs/index.js",
+  "module": "dist/esm/index.js",
+  "typings": "dist/dts/index.d.ts",
+  "files": [
+    "dist",
+    "CHANGELOG.md",
+    "LICENSE",
+    "README.md"
+  ],
+  "scripts": {
+    "build": "node-scripts build",
+    "watch": "node-scripts watch",
+    "format": "node-scripts format",
+    "lint": "node-scripts lint",
+    "test": "node-scripts test"
+  },
+  "dependencies": {
+    "commander": "^9.0.0"
+  },
+  "devDependencies": {
+    "@guoyunhe/node-scripts": "^1.0.0",
+    "@types/jest": "^29.0.0",
+    "@types/node": "^16.0.0",
+    "jest-mock-console": "^2.0.0",
+    "typescript": "^4.0.0"
+  },
+  "eslintConfig": {
+    "extends": "@guoyunhe/node-scripts"
+  },
+  "jest": {
+    "preset": "@guoyunhe/node-scripts"
+  },
+  "prettier": {
+    "singleQuote": true,
+    "printWidth": 120
+  }
+}
