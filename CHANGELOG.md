@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.2.0 - 2023-01-22
+
+- Use `package-json-from-git` to initialize `repository`, `homepage`, `bugs` and `author` fields in `package.json` from Git data
+
 ## 1.1.0 - 2023-01-22
 
 - Remove `jest-mock-console` dependency

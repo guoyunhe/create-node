@@ -1,8 +1,8 @@
 import { outputFile, outputJSON, pathExists, readJSON } from 'fs-extra';
 import merge from 'merge';
+import { getPackageJsonFromGit } from 'package-json-from-git';
 import { basename, join } from 'path';
 import sortPackageJson from 'sort-package-json';
-import { getRepoInfo } from './getRepoInfo';
 import changelog from './template/changelog.txt';
 import editorconfig from './template/editorconfig.txt';
 import gitignore from './template/gitignore.txt';
@@ -68,7 +68,7 @@ export async function createProject(
   if (await pathExists(packageJsonPath)) {
     oldPackageJson = await readJSON(packageJsonPath, { throws: false });
   }
-  const newPackageJson: any = await getRepoInfo();
+  const newPackageJson: any = await getPackageJsonFromGit();
   merge.recursive(newPackageJson, oldPackageJson, packageJson);
   newPackageJson.name ||= basename(projectFullPath);
   newPackageJson.version = packageVersion || newPackageJson.version || '1.0.0';
