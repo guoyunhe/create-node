@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.2 - 2023-01-26
+
+- Change Prettier `printWidth` to `100`
+
 ## 1.3.1 - 2023-01-26
 
 - Fix VSCode `editor.rulers` settings

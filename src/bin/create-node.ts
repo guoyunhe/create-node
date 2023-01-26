@@ -6,7 +6,10 @@ import { createProject } from '..';
 const program = new Command('create-node');
 
 program
-  .argument('[project]', 'Folder name for the created project. If not provided, use current folder name.')
+  .argument(
+    '[project]',
+    'Folder name for the created project. If not provided, use current folder name.'
+  )
   .option('--package-version <version>', 'Initial package version number, 1.0.0 by default')
   .option(
     '--node-version <version>',

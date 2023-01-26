@@ -79,7 +79,9 @@ export async function createProject(
   // CHANGELOG.md
   const changelogPath = join(projectFullPath, 'CHANGELOG.md');
   const date = new Date().toISOString().substring(0, 10);
-  const newChangelog = changelog.replaceAll('%date%', date).replaceAll('%version%', newPackageJson.version);
+  const newChangelog = changelog
+    .replaceAll('%date%', date)
+    .replaceAll('%version%', newPackageJson.version);
   outputFile(changelogPath, newChangelog);
 
   // README.md
