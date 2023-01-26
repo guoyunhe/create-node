@@ -1,6 +1,6 @@
 {
   "name": "@guoyunhe/create-node",
-  "version": "1.3.0",
+  "version": "1.3.1",
   "description": "Initialize a Node.js library project",
   "keywords": [
     "cli",
@@ -64,11 +64,11 @@
     "sort-package-json": "^1.57.0"
   },
   "devDependencies": {
-    "@guoyunhe/node-scripts": "^1.5.1",
+    "@guoyunhe/node-scripts": "^1.6.0",
     "@tsconfig/node16-strictest": "^1.0.4",
     "@types/fs-extra": "^9.0.13",
     "@types/git-url-parse": "^9.0.1",
-    "@types/jest": "^29.2.6",
+    "@types/jest": "^29.4.0",
     "@types/node": "^16.18.11",
     "typescript": "^4.9.4"
   }

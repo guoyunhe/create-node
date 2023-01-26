@@ -1,5 +1,9 @@
 # Changelog
 
+## 1.3.1 - 2023-01-26
+
+- Fix VSCode `editor.rulers` settings
+
 ## 1.3.0 - 2023-01-22
 
 - Initialize `description` and `keywords`
