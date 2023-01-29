@@ -19,9 +19,6 @@
     "lint": "node-scripts lint",
     "test": "node-scripts test"
   },
-  "dependencies": {
-    "commander": "^9.0.0"
-  },
   "devDependencies": {
     "@guoyunhe/node-scripts": "^1.0.0",
     "@types/jest": "^29.0.0",
