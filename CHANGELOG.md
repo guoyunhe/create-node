@@ -1,20 +1,27 @@
 # Changelog
 
+## 1.5.0 - 2023-02-11
+
+- Updated `@guoyunhe/node-scripts` to 2.0
+- Splitted `package.json` template into `package-defaults.json` and `package-overrides.json`
+- Changed to not override `src/index.ts`, `README.md`, `CHANGELOG.md`
+- Simplified `.gitignore` template
+
 ## 1.4.0 - 2023-01-29
 
-- Remove template `commander` dependency
+- Removed template `commander` dependency
 
 ## 1.3.2 - 2023-01-26
 
-- Change Prettier `printWidth` to `100`
+- Changed Prettier `printWidth` to `100`
 
 ## 1.3.1 - 2023-01-26
 
-- Fix VSCode `editor.rulers` settings
+- Fixed VSCode `editor.rulers` settings
 
 ## 1.3.0 - 2023-01-22
 
-- Initialize `description` and `keywords`
+- Added `description` and `keywords` to `package.json` template
 
 ## 1.2.0 - 2023-01-22
 

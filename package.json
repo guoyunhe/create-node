@@ -28,11 +28,11 @@
     "name": "Guo Yunhe",
     "email": "i@guoyunhe.me"
   },
-  "main": "dist/cjs/index.js",
-  "module": "dist/esm/index.js",
-  "typings": "dist/dts/index.d.ts",
+  "main": "dist/index.js",
+  "module": "dist/index.mjs",
+  "typings": "dist/index.d.ts",
   "bin": {
-    "create-node": "dist/cjs/bin/create-node.js"
+    "create-node": "dist/create-node.js"
   },
   "files": [
     "dist",
