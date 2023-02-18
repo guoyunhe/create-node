@@ -20,8 +20,6 @@ program
 
 program.helpOption('-h, --help', 'Show full help');
 
-if (typeof PACKAGE_VERSION === 'string') {
-  program.version(PACKAGE_VERSION, '-v, --version', 'Show version number');
-}
+program.version(PACKAGE_VERSION, '-v, --version', 'Show version number');
 
 program.parse();
