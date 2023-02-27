@@ -1,6 +1,6 @@
 {
   "main": "dist/index.js",
-  "module": "dist/index.js",
+  "module": "dist/index.mjs",
   "typings": "dist/index.d.ts",
   "files": ["dist", "CHANGELOG.md", "LICENSE", "README.md"],
   "scripts": {
