@@ -1,5 +1,10 @@
 # Changelog
 
+## 1.6.0 - 2023-06-24
+
+- Updated to nodejs 20
+- Updated to typescript 5
+
 ## 1.5.0 - 2023-02-11
 
 - Updated `@guoyunhe/node-scripts` to 2.0
