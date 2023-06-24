@@ -1,5 +1,7 @@
 {
-  "description": "",
+  "name": "package-name",
+  "version": "1.0.0",
+  "description": "...",
   "keywords": ["node"],
   "license": "UNLICENSED"
 }
