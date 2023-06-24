@@ -64,21 +64,7 @@ npm test -- -u
 1.0.0 by default.
 
 ```bash
-npm create @guoyunhe/node my-lib --package-version 0.1.0
-```
-
-### Minimum supported Node.js version
-
-Options: 12, 14, 16(default), 18.
-
-```bash
-npm create @guoyunhe/node my-lib --node-version 14
-```
-
-### Use strict TypeScript configuration
-
-```bash
-npm create @guoyunhe/node my-lib --strict
+npm create @guoyunhe/node my-lib --package-version=0.1.0
 ```
 
 ### Pure ESM package
